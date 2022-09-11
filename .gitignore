@@ -1,6 +1,7 @@
 # Django
 db.sqlite3
 staticfiles/
+.idea/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
