@@ -10,7 +10,9 @@ import os
 load_dotenv()
 
 # Init
-newsapi = NewsApiClient(api_key=os.getenv("NEWS_API_KEY"))
+#newsapi = NewsApiClient(api_key=os.getenv("NEWS_API_KEY"))
+newsapi = NewsApiClient(api_key="37d8d403a48442a980e7daf82aaab00c")
+
 
 
 # Create your views here.
