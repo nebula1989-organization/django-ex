@@ -23,6 +23,7 @@ urlpatterns = [
     path('', index, name='home'),
     path('health/', health),
     path('admin/', admin.site.urls),
+    path('news/', include('news.urls')),
 ]
 
 if settings.DEBUG:
